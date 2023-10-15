@@ -9,8 +9,8 @@ You should download the repository content, place it in a folder, and then execu
 cp .env.sample .env
 chmod a+x setup.sh configure.sh
 ./setup.sh
-docker-compose build
-docker-compose up
+docker compose up -d
+
 ```
 
 ## What needs to be changed
